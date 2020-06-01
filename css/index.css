@@ -184,20 +184,30 @@ p span {
   border: 2px solid red;
   width: 45%;
   line-height: 2em;
-  height: 45%;
-  margin: 20px;
+  margin: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image {
+  border: 3px solid blue;
 }
 
 img {
   width: 100%;
-  margin: auto;
-  border: 2px solid red;
 }
 
 .project h3 {
   text-align: center;
   background-color: lightgray;
   font-size: large;
+}
+
+.view-project {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
 }
 
 #skills h2 {
@@ -213,9 +223,45 @@ img {
   justify-content: center;
   align-items: center;
   line-height: 50px;
+  margin-bottom: 100px;
 }
 
 .icons-container {
   margin: auto;
   text-align: center;
+}
+
+#contact{
+  border: 1px solid red;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+#contact h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  color: brown;
+  margin: 20px;
+}
+
+.hire-me {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  border: 9px solid pink;
+  padding: 20px;
+}
+
+.form-input {
+  border: 1px solid red;
+  margin: 20px;
+}
+
+.form-input label {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: x-large;
 }
