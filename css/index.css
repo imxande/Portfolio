@@ -90,6 +90,10 @@ video {
   vertical-align: baseline;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .header {
   display: flex;
   background-color: bisque;
@@ -264,4 +268,44 @@ ul {
 .form-input label {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: x-large;
+}
+
+
+.footer-icons-container {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  margin: 20px;
+}
+
+
+.fa-linkedin {
+  color: #2867B2;
+  font-size: xx-large;
+}
+
+.fa-github {
+  color: #24292e;
+  font-size: xx-large;
+}
+
+.fa-twitter {
+  color:#1DA1F2;
+  font-size: xx-large;
+}
+
+#topPage {
+  display: inline;
+  font-size: 2.5rem;
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  color: burlywood;
+}
+
+#topPage:hover {
+  color: red;
 }
