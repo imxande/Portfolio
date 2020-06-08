@@ -95,7 +95,6 @@ html {
   height: 16px;
 }
 
-
 .header {
   display: flex;
   background-color: #2B89AD;
@@ -106,7 +105,6 @@ html {
 }
 
 #logo {
-  border: 2px solid red;
   margin-right: auto;
   color: white;
 }
@@ -125,7 +123,6 @@ nav span:hover {
 
 
 #banner {
-  border: 2px solid red;
   background: rgb(2,0,36);
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,0.9108018207282913) 0%, rgba(100,229,255,1) 100%);  display: flex;
@@ -135,7 +132,6 @@ nav span:hover {
 }
 
 .banner-content {
-  border: 2px solid red;
   font-family: "Anton", sans-serif;
   font-size: xx-large;
 }
@@ -148,7 +144,7 @@ nav span:hover {
 }
 
 #about {
-  border: 2px solid red;
+  
   padding: 20px;
   text-align: center;
   line-height: 2em;
@@ -169,7 +165,6 @@ p span {
 }
 
 #projects {
-  border: 2px solid red;
   margin: 40px;
   padding: 20px;
   background-color: #085F98;
@@ -180,6 +175,11 @@ p span {
   text-align: center;
   font-weight: bolder;
   font-size: xx-large;
+  color: white;
+}
+
+.project p {
+  color: white;
 }
 
 .projects-container {
@@ -190,19 +190,15 @@ p span {
 
 .project {
   box-sizing: border-box;
-  border: 2px solid red;
   width: 40%;
   line-height: 2em;
   margin: 2%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid white;
 }
 
 .project:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.image {
-  border: 3px solid blue;
 }
 
 img {
@@ -219,6 +215,11 @@ img {
 
 .view-project {
   text-decoration: none;
+  color: white;
+}
+
+.view-project:hover {
+  border-bottom: 3px solid white;
 }
 
 ul {
@@ -247,7 +248,6 @@ ul {
 }
 
 #contact{
-  border: 1px solid red;
   padding: 20px;
   text-align: left;
   background-color:rgb(237, 239, 240);
@@ -263,7 +263,6 @@ ul {
 }
 
 .hire-me {
-  border: 1px solid red;
   display: flex;
   justify-content: center;
 }
@@ -316,12 +315,10 @@ textarea {
 
 
 .form-container {
-  border: 9px solid pink;
   padding: 20px;
 }
 
 .form-input {
-  border: 1px solid red;
   margin: 20px;
 }
 
@@ -332,7 +329,6 @@ textarea {
 
 
 .footer-icons-container {
-  border: 1px solid blue;
   display: flex;
   justify-content: center;
 }
@@ -343,18 +339,30 @@ textarea {
 
 
 .fa-linkedin {
-  color: #2867B2;
+  color: gray;
   font-size: xx-large;
+}
+
+.fa-linkedin:hover {
+  color: #2867B2;
 }
 
 .fa-github {
-  color: #24292e;
+  color: gray;
   font-size: xx-large;
 }
 
+.fa-github:hover {
+  color: #24292e;
+}
+
 .fa-twitter {
-  color:#1DA1F2;
+  color: gray;
   font-size: xx-large;
+}
+
+.fa-twitter:hover {
+  color:#1DA1F2;
 }
 
 #topPage {
@@ -370,3 +378,9 @@ textarea {
   color: red;
 }
 
+.copyright {
+  font-size: small;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
