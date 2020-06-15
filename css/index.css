@@ -153,10 +153,10 @@ p span {
 	text-transform: uppercase;
 	text-align: center;
 }
-/* front side bg is green gradient */ .front {
+/* front side bg is blue gradient */ .front {
 	background: linear-gradient(90deg, rgba(0,18,255,1) 0%, rgba(5,17,36,0.969625350140056) 0%, rgba(19,108,200,1) 100%);
 }
-/* back side bg is orange gradient */ .back {
+/* back side bg is red gradient */ .back {
   background: linear-gradient(90deg, rgba(12,8,88,1) 0%, rgba(36,5,5,0.9108018207282913) 0%, rgba(200,19,19,1) 100%);
 }
 
@@ -189,8 +189,8 @@ p span {
   font-size: x-large;
   margin: 20px;
   text-align: left;
+  text-transform: none;
 }
-
 
 img {
   width: 100%;
