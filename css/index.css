@@ -193,7 +193,6 @@ p span {
 }
 
 img {
-  width: 100%;
   height: 40vh;
   display: block;
   max-width: 100%; 
@@ -403,3 +402,70 @@ textarea {
   margin: 20px;
 }
 
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 1719px) {
+  .card-container, .front, .back {
+    width: 33rem;
+    height: 30rem;
+  }
+  img {
+    height: 30vh;
+    display: block;
+    max-width: 100%; 
+  }
+  .front, .back {
+    font-size: 1.5em;
+  } 
+}
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 1495px) {
+  .card-container, .front, .back {
+    width: 30rem;
+    height: 30rem;
+  }
+  img {
+    height: 30vh;
+    display: block;
+    max-width: 100%; 
+  }
+  .front, .back {
+    font-size: 1.3em;
+  }   
+}
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 1399px) {
+  .card-container, .front, .back {
+    width: 25rem;
+    height: 25rem;
+  }
+  img {
+    height: 25vh;
+    display: block;
+    max-width: 100%; 
+  }
+  .front, .back {
+    font-size: 1.1em;
+  }
+  .back p {
+    font-size: 1.2em;
+  }     
+}
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 1239px) {
+  .card-container, .front, .back {
+    width: 40rem;
+    height: 30rem;
+  }
+  img {
+    height: 40vh;
+    display: block;
+    max-width: 100%; 
+  } 
+  .front, .back {
+    font-size: 1.5em;
+  }    
+}
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 1079px) {
+  
+}
