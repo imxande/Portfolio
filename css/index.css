@@ -191,12 +191,17 @@ p span {
   text-align: left;
   text-transform: none;
 }
-
-img {
-  height: 40vh;
-  display: block;
-  max-width: 100%; 
+.image {
+  height: 370px;
 }
+
+.image img {
+  height: 100%;
+  display: block;
+  width: 100%;
+}
+
+
 
 .project h3 {
   text-align: center;
@@ -408,11 +413,7 @@ textarea {
     width: 33rem;
     height: 30rem;
   }
-  img {
-    height: 30vh;
-    display: block;
-    max-width: 100%; 
-  }
+  
   .front, .back {
     font-size: 1.5em;
   } 
@@ -423,11 +424,7 @@ textarea {
     width: 30rem;
     height: 30rem;
   }
-  img {
-    height: 30vh;
-    display: block;
-    max-width: 100%; 
-  }
+
   .front, .back {
     font-size: 1.3em;
   }   
@@ -438,14 +435,15 @@ textarea {
     width: 25rem;
     height: 25rem;
   }
-  img {
-    height: 25vh;
-    display: block;
-    max-width: 100%; 
+
+  .image {
+    height: 320px;
   }
+
   .front, .back {
     font-size: 1.1em;
   }
+
   .back p {
     font-size: 1.2em;
   }     
@@ -456,16 +454,12 @@ textarea {
     width: 40rem;
     height: 30rem;
   }
-  img {
-    height: 40vh;
-    display: block;
-    max-width: 100%; 
-  } 
+
+  .image {
+    height: 370px;
+  }
+
   .front, .back {
     font-size: 1.5em;
   }    
-}
-/* On screens that are 992px or less, set the background color to blue */
-@media screen and (max-width: 1079px) {
-  
 }
